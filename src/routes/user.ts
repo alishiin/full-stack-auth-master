@@ -58,7 +58,7 @@ router.post("/login", async (req, res) => {
     );
 
     res.json({ token, user: { id: user.id, email: user.email, extraInfo: user.extraInfo } });
-  } catch (error) {
+  } catch (error) { console.error("Error de login:", error);
     res.status(500).json({ message: "Error iniciando sesión: ", error });
   }
 });
