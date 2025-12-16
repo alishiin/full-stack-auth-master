@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "API de ejemplo",
-    "description": "Documentación de la API de ejemplo de un servicio node.js",
+    "title": "API para Usuarios y Clientes",
+    "description": "Documentación de la API para la gestión de usuarios y clientes para Pastelería Momo&Virgo",
     "version": "1.0.0"
   },
   "host": "localhost:3000",
